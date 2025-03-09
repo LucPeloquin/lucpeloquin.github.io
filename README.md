@@ -50,28 +50,6 @@ The website consists of several HTML pages that showcase my background, projects
 - Uses IBM Plex Mono font family
 - Favicon included for brand consistency
 
-## Projects in Detail
-
-### Interactive Data Dashboards
-A practice project focused on creating interactive dashboards from API calls. The repository features:
-- **Languages**: Go (96.5%), Shell (3.5%)
-- **Architecture**: Separate frontend and backend components
-- **Structure**: Organized with clear separation of concerns
-- **License**: MIT
-- **Repository**: [Dashboards-Practice](https://github.com/LucPeloquin/Dashboards-Practice)
-
-This project demonstrates my ability to work with Go for backend services while creating functional, interactive dashboards that consume API data. The project serves as a practical exploration of dashboard development techniques and best practices.
-
-### Automoni - Automated System Monitoring
-A tool for automatic monitoring of websites with push notifications to iOS devices. The project features:
-- **Languages**: Go (52.7%), Python (47.3%)
-- **Implementation**: Dual-language approach with both Go and Python versions
-- **Functionality**: Website monitoring with real-time alerts
-- **Mobile Integration**: iOS push notification system
-- **Repository**: [automoni](https://github.com/LucPeloquin/automoni)
-
-Automoni showcases my ability to work across multiple programming languages while building practical tools for system administration. The project demonstrates skills in web scraping, automated monitoring, and mobile notifications integration, providing a complete solution for tracking website status and receiving immediate alerts on iOS devices.
-
 ## License
 
 © 2025 Jean-Luc Peloquin. All rights reserved.
