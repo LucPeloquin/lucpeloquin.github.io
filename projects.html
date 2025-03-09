@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Jean-Luc Peloquin</title>
+    <link rel="icon" href="img/latest.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap">
 </head>
@@ -20,40 +21,51 @@
             <p>A showcase of my technical projects and explorations. Each project represents a learning journey and problem-solving experience.</p>
             
             <div class="project">
+                <h2>Automatic Music Transposition</h2>
+                <p class="project-date">September 2023 - December 2023</p>
+                <p>A collaborative project focused on developing a specialized application that leverages transformer-based machine learning models and advanced waveform analysis for automatic music transcription from audio files. The system converts complex audio recordings into structured musical notation with high accuracy.</p>
+                <p>The application implements the MT3 framework (TensorFlow) and Score Transformer to transcribe user-selected audio files into MusicXML format with the option to export as MIDI. The user interface and file handling components were built using the JUCE framework in C++, providing a seamless experience across different operating systems.</p>
+                <p><strong>Technologies:</strong> Python (TensorFlow, NumPy, Librosa), C++ (JUCE), MusicXML, MIDI, Transformer Neural Networks, Audio Signal Processing</p>
+                <p><em>Note: The source code repository is not publicly available due to copyright concerns related to the project's implementation.</em></p>
+                <p><a href="documents/amt.pdf">View Project Poster</a></p>
+            </div>
+            
+            <div class="project">
                 <h2>Automatic Enhancement of Fashion Imagery</h2>
                 <p class="project-date">January - April 2024</p>
-                <p>A deep learning project focused on enhancing fashion product images using advanced computer vision techniques. Implemented a neural network model inspired by the FashionERN architecture to improve image quality and detail for e-commerce applications.</p>
-                <p>The system automatically enhances low-quality fashion product images, improving color accuracy, detail preservation, and overall visual appeal without manual intervention.</p>
-                <p><strong>Technologies:</strong> Python, PyTorch, Computer Vision, Deep Learning, Fashion-MNIST dataset</p>
+                <p>An advanced image processing application that automatically enhances fashion product images, particularly from platforms like Grailed.com. The system implements a comprehensive enhancement pipeline with adaptive processing capabilities that analyze each image to determine optimal parameters based on lighting conditions, contrast levels, noise presence, and detail complexity.</p>
+                <p>Key features include high-quality Lanczos upscaling (4x by default), detail enhancement through high-pass filtering and unsharp masking, color enhancement with LAB color space processing, contrast improvement using CLAHE (Contrast Limited Adaptive Histogram Equalization), shadow and highlight recovery for better dynamic range, noise reduction using non-local means denoising, and background removal using the U2Net deep learning model. The application includes both a user-friendly graphical interface and command-line functionality for batch processing with parallel execution capabilities.</p>
+                <p>The enhancement pipeline consists of multiple stages: image analysis for parameter optimization, pre-processing with white balance correction, resolution enhancement via Lanczos algorithm, color/contrast enhancement in LAB color space, detail enhancement through frequency domain manipulation, background processing with edge feathering, and post-processing with auto-cropping based on content analysis. The system employs adaptive configuration that tailors processing parameters to each image's unique characteristics.</p>
+                <p><strong>Technologies:</strong> Python (100%), OpenCV, NumPy, Pillow, rembg (U2Net), Adaptive Image Processing, LAB Color Space Manipulation, Frequency Domain Filtering, Non-local Means Denoising, CLAHE, Parallel Processing</p>
                 <p><a href="https://github.com/LucPeloquin/Automatic-Enhancement-of-Fashion-Imagery">View on GitHub</a></p>
                 <p><a href="documents/final_report_peloqj1.pdf">View Paper</a></p>
             </div>
             
             <div class="project">
-                <h2>VCT Scoreboard Matrix</h2>
-                <p class="project-date">October 2023 - January 2024</p>
-                <p>A data visualization tool for tracking and analyzing competitive VALORANT Champions Tour (VCT) esports matches. The project creates an interactive scoreboard matrix that displays team performance, match outcomes, and statistical trends.</p>
-                <p>Features include head-to-head comparisons, win-rate analysis, and performance metrics that help fans and analysts understand competitive patterns and team strengths.</p>
-                <p><strong>Technologies:</strong> Python, Pandas, Data Visualization, Web Scraping, JavaScript, D3.js</p>
-                <p><a href="https://github.com/LucPeloquin/VCT-Scoreboard-Matrix">View on GitHub</a></p>
+                <h2>Automoni - Automated System Monitoring</h2>
+                <p class="project-date">October 2024 - December 2024</p>
+                <p>A specialized tool for automatic monitoring of Grailed marketplace listings with push notifications to iOS devices. Automoni was designed to track new product listings and price changes on the Grailed fashion marketplace, alerting users to potential deals in real-time.</p>
+                <p>The system features sophisticated web scraping that monitors Grailed listings without triggering anti-bot measures, delivering instant iOS notifications when items matching user-defined criteria appear. This provides fashion enthusiasts with a competitive edge in securing limited-edition or highly sought-after items.</p>
+                <p><strong>Technologies:</strong> Go (52.7%), Python (47.3%), Web Scraping, iOS Notifications, Automated Monitoring</p>
+                <p><a href="https://github.com/LucPeloquin/automoni">View on GitHub</a></p>
             </div>
             
             <div class="project">
                 <h2>Interactive Data Dashboards</h2>
-                <p class="project-date">July - September 2023</p>
-                <p>A collection of interactive data dashboards built to visualize complex datasets. This project demonstrates proficiency in creating intuitive, responsive dashboards that transform raw data into actionable insights.</p>
-                <p>The dashboards include features such as real-time filtering, drill-down capabilities, and customizable visualizations that help users explore data patterns and make data-driven decisions.</p>
-                <p><strong>Technologies:</strong> Python, Dash, Plotly, Pandas, HTML/CSS, Flask</p>
+                <p class="project-date">February 2025</p>
+                <p>A practice project focused on creating interactive dashboards from API calls. This project demonstrates my ability to work with Go for backend services while creating functional, interactive dashboards that consume API data.</p>
+                <p>The dashboards transform raw API data into intuitive visualizations with real-time filtering, drill-down capabilities, and customizable views that help users explore data patterns and make data-driven decisions.</p>
+                <p><strong>Technologies:</strong> Go (96.5%), Shell (3.5%), Frontend/Backend Architecture</p>
                 <p><a href="https://github.com/LucPeloquin/Dashboards-Practice">View on GitHub</a></p>
             </div>
             
             <div class="project">
-                <h2>Automoni - Automated System Monitoring</h2>
-                <p class="project-date">May - July 2023</p>
-                <p>A lightweight system monitoring tool that automatically tracks and reports on system performance metrics. Automoni provides real-time insights into CPU usage, memory allocation, disk space, and network activity.</p>
-                <p>The tool includes customizable alerts, historical data tracking, and visualization components that help system administrators identify potential issues before they impact performance.</p>
-                <p><strong>Technologies:</strong> Python, System Administration, Data Monitoring, SQLite, Matplotlib</p>
-                <p><a href="https://github.com/LucPeloquin/automoni">View on GitHub</a></p>
+                <h2>VCT Scoreboard Matrix</h2>
+                <p class="project-date">September 2024 - <em>Ongoing</em></p>
+                <p>A computer vision project focused on extracting game data from VALORANT Champions Tour (VCT) esports broadcasts (Barracks UI) using OCR and object detection techniques. The system automatically identifies and captures UI elements from the game's esports broadcast interface to build a comprehensive database of match statistics.</p>
+                <p>The project employs sophisticated image processing algorithms to detect weapon icons, player statistics, and team compositions in real-time. By automating the data extraction process, it creates a structured dataset that enables advanced analytics of professional VALORANT matches without manual data entry.</p>
+                <p><strong>Technologies:</strong> Python (99.5%), Jupyter Notebook (0.5%), Computer Vision, OCR, Object Detection, Image Processing</p>
+                <p><a href="https://github.com/LucPeloquin/VCT-Scoreboard-Matrix">View on GitHub</a></p>
             </div>
         </main>
         <footer>
